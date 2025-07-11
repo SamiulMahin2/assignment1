@@ -80,7 +80,7 @@ main{
 .action{
 	display: flex;
 	justify-content: center;
-	gap: 180px;
+	gap: 105px;
 	align-items: center;
 	padding: 120px 0 100px 0;
 }
@@ -145,7 +145,7 @@ main{
 	font-size: 42px;
 	font-weight: 700;
 	color: #252432;
-	margin-bottom: 70px;
+	margin: 0 0 70px 0;
 }
 .all-feedback-items{
 	display: flex;
@@ -172,7 +172,6 @@ main{
 .client-img img{
 	border-radius: 20px;
 }
-.client-content{}
 .client-content h3{
 	margin: 0 0 5px 0;
 	color: #757575;
@@ -182,3 +181,30 @@ main{
 	color: #B3B3B3;
 }
 /* feedback end */
+
+/* focus start */
+.focus{
+	text-align: center;
+	background-color: white;
+	padding: 50px 90px;
+	margin: 0 150px;
+	border-radius: 14px;
+}
+.focus h1{
+	font-size: 50px;
+	font-weight: 700;
+	margin: 0 0 20px 0;
+}
+.focus p{
+	margin: 0;
+	color: rgba(0, 0, 0, 0.5);
+}
+.focus-btn{
+	margin: 20px 0;
+}
+.focus img{
+	margin: 0 auto;
+	display: block;
+	border-radius: 48px;
+}
+/* focus end */
