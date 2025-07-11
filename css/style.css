@@ -133,3 +133,52 @@ main{
 	margin: 0;
 }
 /* productive users end */
+
+/* feedback start */
+.feedback{
+	padding: 100px 0;
+}
+.feedback-title{
+	text-align: center;
+}
+.feedback-title h1{
+	font-size: 42px;
+	font-weight: 700;
+	color: #252432;
+	margin-bottom: 70px;
+}
+.all-feedback-items{
+	display: flex;
+	gap: 25px;
+}
+.feedback-item{
+	padding: 24px;
+	background-color: white;
+	border-radius: 14px;
+}
+.feedback-item:first-child{
+	margin-left: 150px;
+}
+.feedback-item:last-child{
+	margin-right: 150px;
+}
+.client{
+	display: flex;
+	align-items: center;
+}
+.client-img{
+	margin-right: 6px;
+}
+.client-img img{
+	border-radius: 20px;
+}
+.client-content{}
+.client-content h3{
+	margin: 0 0 5px 0;
+	color: #757575;
+}
+.client-content p{
+	margin: 0;
+	color: #B3B3B3;
+}
+/* feedback end */
